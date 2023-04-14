@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <h1 class="centrado">MEDIA QUERY</h1>
+    </header>
+    <nav>
+        <ul class="menu-horizontal">
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="audio.html">Audio</a> </li>
+            <li> <a href="tema.html">Tema</a> </li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menu-aside">
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="audio.html">Audio</a> </li>
+            <li> <a href="tema.html">Tema</a> </li>
+            <li> <a href="nosotros.html">Nosotros</a> </li>
+        </ul>
+    </aside>
+    <main>
+        <section>
+            <h2> ¿Qué es una Media Query?</h2>
+    
+            <p>
+                Son la base del diseño responsive (responsivo o adaptable). Es decir, con una misma maquetación HTML, 
+                este diseño se adaptará a diferentes dispositivos y tipos de pantalla.
+    
+            </p>
+    
+            <h4> Origen de las Media Queries
+            </h4>
+    
+            <p>
+            La primera versión de CSS se dio en 1994 pero solo en el año 2012 cuando se incorporaron a los navegadores con la llegada de CSS3 y la recomendación del consorcio W3C.
+            Se plantea la necesidad de representar el contenido HTML en pantallas con diferentes resoluciones se convirtieron en estándar y convivían en el mercado más de una docena 
+            de resoluciones. Desde los 1024×768 píxels de los monitores CRT más antiguos hasta los 2560×1440 de los LCD más modernos en aquel momento. las Media Queries también se 
+            plantearon como una forma de mejorar la accesibilidad web. A través de ellas es posible, por ejemplo, aumentar el tamaño de las fuentes en determinados dispositivos o 
+            mejorar el contraste entre el color de la letra y el fondo.
+    
+    
+            <h4> Tipos de Medios
+            </h4>
+    
+            <p>
+                Los tipos de medios son:
+                <p>
+                –all: Se utiliza para todos los tipos de medios o dispositivos.
+                <p>
+                –print: Se utiliza para impresoras
+                <p>
+                –screen: Se utiliza para pantallas de ordenador, tablets, teléfonos móviles, etc…
+                <p>
+                –speech: Se utiliza para lectores de pantalla, generalmente utilizados por personas con discapacidad visual.
+    
+                
+            </p>
+            <h4> Funciones de Medios
+            </h4>
+    
+            <p>
+                Son las características que se otorgan a cada user-agent, navegador o dispositivo de salida son:
+                <p>
+    –width: Ancho de la ventana de visualización.
+    <p>
+    –height: Alto de la ventana de visualización.            
+    <p>
+    –aspect-ratio: Relación de aspecto ancho/alto de la ventana de visualización.
+    <p>
+    –orientation: Orientación de la ventana de visualización.
+    <p>
+    –resolution: Densidad de píxeles del dispositivo de salida. 
+    <p>
+    –scan: Proceso de escaneado del dispositivo de salida.
+    <p>
+    –grid: ¿Utiliza el dispositivo una pantalla de cuadrícula o mapa de bits? 
+    <p>
+    –update: ¿Con qué frecuencia el dispositivo de salida puede modificar la apariencia del contenido?
+    <p>
+    –overflow-block: ¿Cómo maneja el dispositivo de salida el contenido que desborda la vista a lo largo del eje del bloque?
+    <p>
+    –overflow-inline: ¿Se puede desplazar el contenido que desborda la ventana de visualización a lo largo del eje en línea?
+    <p>
+    –color: Número de bits por componente de color del dispositivo de salida, o cero si el dispositivo no es de color.
+    <p>
+    –color-gamut: Rango aproximado de colores que son soportados por el user-agent y el dispositivo de salida.
+    <p>
+    –color-index: Número de entradas en la tabla de búsqueda de color del dispositivo de salida, o cero si el dispositivo no utiliza dicha tabla.
+    <p>
+    –display-mode: El modo de visualización de la aplicación.
+    <p>
+    –monochrome: Bits por píxel en el búfer de fotogramas monocromo del dispositivo de salida, o cero si el dispositivo no es monocromo. 
+    <p>
+    –inverted-colors: ¿Está invirtiendo colores el agente de usuario o el sistema operativo subyacente?
+    <p>
+    –pointer: ¿Es el mecanismo de entrada principal un dispositivo señalador y, de ser así, cuán preciso es?
+    <p>
+    –hover: ¿El mecanismo de entrada principal permite al usuario pasar el ratón por encima de los elementos?
+    <p>
+    –any-pointer: ¿Es cualquier mecanismo de entrada disponible un dispositivo señalador y, de ser así, cuán preciso es?
+    <p>
+    –any-hover: ¿Hay algún mecanismo de entrada disponible que permita al usuario pasar el ratón por encima de los elementos?
+    <p>
+    –light-level: Nivel de luz del entorno.
+    <p>
+    –prefers-reduced-motion: El usuario prefiere menos movimiento en la página.
+    <p>
+    –prefers-reduced-transparency: El usuario prefiere una transparencia reducida.
+    <p>
+    –prefers-contrast: Detecta si el usuario ha solicitado que el sistema aumente o disminuya la cantidad de contraste entre los colores adyacentes.
+    <p>
+    –prefers-color-scheme: Detecta si el usuario prefiere un esquema de color claro u oscuro.
+    <p>
+    –forced-colors: Detecta si el user-agent restringe la paleta de colores.
+    <p>
+    -scripting: Detecta si está disponible el scripting (es decir, JavaScript).
+    <p>
+    –device-width: Ancho de la superficie de renderizado del dispositivo de salida (Obsoleto).
+    <p>
+    –device-height: Altura de la superficie de renderizado del dispositivo de salida (Obsoleto).
+    <p>
+    –device-aspect-ratio: Relación de aspecto ancho/alto del dispositivo de salida (Obsoleto).
+    
+    
+    <h4> Las Media Queries y el diseño responsive
+    </h4>
+    
+    <p>
+        El objetivo de utilizar una Media Query en una hoja de estilo CSS en nuestra página web es que se ejecute una regla o un conjunto de reglas si se cumple una condición determinada, como puede ser el ancho máximo de pantalla.
+        La ventaja principal de utilizar las Media Queries es que partimos de un único diseño principal que se irá adaptando y reajustando en función del navegador, el dispositivo, la pantalla o las preferencias del usuario.
+        
+        <h4> Ejemplo
+        </h4>
+        
+        <p>
+            En el primer ejemplo, el color del fondo será rojo solo si el ancho de la pantalla es inferior a 800 píxeles:
+            @media only screen and (max-width: 800px) {
+              body {
+                background-color: red;
+              }
+            }
+            
+            utilizamos una Media Query para cambiar el tamaño de letra de un elemento determinado en diferentes tamaños de pantalla:
+            /* Si el tamaño de la pantalla es de 601px o más, ajusta el tamaño de la fuente de <div> a 80px */
+            @media only screen and (min-width: 601px) {
+              div.example {
+                font-size: 80px;
+              }
+            }
+            
+            /* Si el tamaño de la pantalla es de 600px o menos, ajusta el tamaño de la fuente de <div> a 30px */
+            @media only screen and (max-width: 600px) {
+              div.example {
+                font-size: 30px;
+              }
+            }
+            
+               
+            </p>
+    
+    
+    
+        </section>
+
+    </main>
+    <footer class="centrado">
+        <br>
+      Ayda Leticia Nuñez Cruz
+        <div>alnunezc@unadvirtual.edu.co </div>
+        Bogota
+    </footer>
+    <br>
+</body>
+
+</html>

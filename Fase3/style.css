@@ -1,0 +1,125 @@
+.contenedor {
+
+    display: grid;
+    grid-template-areas:
+        'A A A A'
+        'B B B B'
+        'C D D D'
+        'E E E E';
+        font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: xx-large;
+
+}
+
+header {
+    grid-area: A;
+    background-color: #F7C8E0;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+}
+
+nav {
+    grid-area: B;
+    background-color: #DFFFD8;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+}
+
+aside {
+    grid-area: C;
+    background-color: #B4E4FF;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+}
+
+main {
+    grid-area: D;
+    background-color: #95BDFF;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+}
+
+footer {
+    grid-area: E;
+    background-color: #F7C8E0;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+
+}
+
+.centrado {
+    text-align: center;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+}
+
+.menu-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;  
+    font-size: x-large;
+}
+
+.menu-horizontal a {
+
+    background-color: #F7C8E0;
+    color: black;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 4px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.menu-aside {
+    list-style: none;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    padding: 10px 40px;   
+    font-size: x-large;
+
+}
+
+.menu-aside a {
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 4px;
+    background-color: #F7C8E0;
+    color: black;
+    display: block;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+div {
+    text-align: center;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        
+    font-size: x-large;
+}
+
+
+@media (max-width:500px) {
+footer {
+display: grid;
+grid-template-areas:
+    'A A A A'
+    'B B B B'
+    'D D D D'
+    ', C C ,'
+    'E E E E';
+font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+       
+background-color: red;
+        
+    }
+    
+}
